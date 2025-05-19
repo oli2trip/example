@@ -2,7 +2,7 @@
 1. Create new Github repository.
 1. Create “Task1” folder in the master branch. Create and push ./Task1/README.md file.
 
-![1stcode](/Downloads/Git/example/carbon1.PNG)
+![1stcode](/Downloads/Git/example/carbon1.png)
 ![A screenshot of a computer
 
 AI-generated content may be incorrect.](Aspose.Words.d362bd1a-f77f-4951-9e99-e7c679c7c940.001.png)
