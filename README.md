@@ -1,99 +1,36 @@
 ﻿1. Create a Github account(if you don’t have one).
-1. Create new Github repository.
-1. Create “Task1” folder in the master branch. Create and push ./Task1/README.md file..
+2. Create new Github repository.
+3. Create “Task1” folder in the master branch. Create and push ./Task1/README.md file..
 
-![imagecode](https://github.com/oli2trip/example/blob/main/carbon1.png)
+![imagecode1](https://github.com/oli2trip/example/blob/main/carbon1.png)
 
-1. Create a new branch dev. Create and push any test file.
-1. Create a new branch %USERNAME-new\_feature.
-1. Add ./README.md file to your %USERNAME-new\_feature branch
-1. Check your repo with git status command
-1. Add .gitignore file to ignore all files whose name begins “.”
-1. Commit and push changes to github repo.
+4. Create a new branch dev. Create and push any test file.
+5. Create a new branch %USERNAME-new\_feature.
+6. Add ./README.md file to your %USERNAME-new\_feature branch
+7. Check your repo with git status command
+8. Add .gitignore file to ignore all files whose name begins “.”
+9. Commit and push changes to github repo.
 
-mkdir Task\_1
+![imagecode2]()
 
-cd Task\_1
+10. Create Pull Request to the dev branch.
 
-git init 
+![Pullrequest]()
 
-touch task1.md
-
-git add .
-
-git commit -m "add README file"
-
-git branch -M main
-
-git remote add origin main <git\_ripo\_SSH\_Url>
-
-git push -u origin master
-
-git branch dev
-
-git switch dev
-
-touch test\_file.txt
-
-git add test.txt
-
-git commit -m "add test\_file"
-
-git push -u origin dev
-
-git switch -
+11. Merge your branch with the dev branch and create Pull Request to the master branch. Merge dev with master.
 
 
+![merge]()
 
-git switch -c oli2trip-new\_feature
+12. Checkout to %USERNAME-new_feature, make changes in README.md and commit them. Revert last commit in %USERNAME-new_feature branch.
+13. Check your repo with git log command, create log.txt file in master branch and save “git log” output in it.
 
-touch README.md 
+![imagecode3]()
 
-git status
-
-touch .gitignore
-
-git add .gitignore
-
-git commit -m "add gitignore"
-
-git push -u origin oli2trip-new\_feature
-
-echo "changes" >> README.md
-
-git commit -am "add changes to README"
-
-git reset --hard <commit key>
-
-git log
-
-git switch main
-
-touch log.txt
-
-echo "git log" >> log.txt
-
-git switch dev
-
-git branch -d oli2trip-new\_feature
-
-git push origin -d oli2trip-new\_feature
-
-touch commands.md
-
-git add .
-
-git commit -m "add log and commands file"
-
-git switch main
-
-git pull origin main
-
-git push
-
-git switch dev
-
-git push 
+14. Delete local and remote branch %USERNAME-new_feature.
+15. Add all used command to the git_commands.md file in the dev branch.
+16. Send the link to your Git Repository to your mentor via private Skype message.
+![imagecode4]()
 
 
 [def]: oli
