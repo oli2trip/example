@@ -1,8 +1,8 @@
 ﻿1. Create a Github account(if you don’t have one).
 1. Create new Github repository.
-1. Create “Task1” folder in the master branch. Create and push ./Task1/README.md file.
+1. Create “Task1” folder in the master branch. Create and push ./Task1/README.md file..
 
-![imagecode](C:/Users/oli2t//Downloads/Git/example/carbon1.png)
+![imagecode](https://github.com/oli2trip/example/blob/main/carbon1.png)
 
 1. Create a new branch dev. Create and push any test file.
 1. Create a new branch %USERNAME-new\_feature.
