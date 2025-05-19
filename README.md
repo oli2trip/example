@@ -30,6 +30,7 @@
 14. Delete local and remote branch %USERNAME-new_feature.
 15. Add all used command to the git_commands.md file in the dev branch.
 16. Send the link to your Git Repository to your mentor via private Skype message.
+
 ![imagecode4]()
 
 
